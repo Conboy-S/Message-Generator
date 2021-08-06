@@ -7,4 +7,4 @@ var quotes = [
 function messageGenerator() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
   console.log(quotes[randomNumber]);
-};
+}
